@@ -12,7 +12,7 @@ class ViewController: UIViewController ,UNUserNotificationCenterDelegate{
         // ------------------------------------
         // 通知の発行: タイマーを指定して発行
         // ------------------------------------
-
+   
         // content
         let content = UNMutableNotificationContent()
         content.title = "It's time."
