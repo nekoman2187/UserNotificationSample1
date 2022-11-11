@@ -6,14 +6,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
         // notification center (singleton)
         let center = UNUserNotificationCenter.current()
 
         // ------------------------------------
-        // 前準備: ユーザに通知の許可を求める
+        // 前準備: ユーザに通知の許可を求める g
         // ------------------------------------
 
         // request to notify for user
